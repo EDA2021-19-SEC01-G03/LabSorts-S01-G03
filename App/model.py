@@ -204,10 +204,4 @@ def sortBooks(catalog, size):
     sorted_list = sa.sort(sub_list, compareratings)
     stop_time = time.process_time()
     elapsed_time_mseg = (stop_time - start_time)*1000
-<<<<<<< HEAD
-    return elapsed_time_mseg
-
-# Funciones utilizadas para comparar elementos dentro de una lista
-=======
     return elapsed_time_mseg, sorted_list
->>>>>>> 269bcaa5d215adce3294b0db4578d0ed2f7514c1
