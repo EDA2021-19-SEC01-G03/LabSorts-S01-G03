@@ -1,18 +1,3 @@
-#Integrantes del grupo
-
-Ana Sofía Castellanos Mosquera
-
-Correo: a.castellanosm@uniandes.edu.co
-
-Código: 202114167
-
-Martín Santiago Galván Castro
-
-Correo: ms.galvan@uniandes.edu.co
-
-Código: 201911013
-
-
 #ISIS1225 - Estructura de un proyecto
 
 Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
