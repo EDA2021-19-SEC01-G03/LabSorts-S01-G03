@@ -29,8 +29,8 @@ import csv
 El controlador se encarga de mediar entre la vista y el modelo.
 """
 
-
 # Inicialización del Catálogo de libros
+
 
 def initCatalog():
     """
@@ -87,6 +87,7 @@ def loadBooksTags(catalog):
 
 # Funciones de ordenamiento
 
+
 def sortBooks(catalog, size):
     """
     Ordena los libros por average_rating
@@ -95,6 +96,7 @@ def sortBooks(catalog, size):
 
 
 # Funciones de consulta sobre el catálogo
+
 
 def getBooksByAuthor(catalog, authorname):
     """

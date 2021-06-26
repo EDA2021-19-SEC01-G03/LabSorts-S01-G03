@@ -64,6 +64,7 @@ def newCatalog():
 
 # Funciones para agregar informacion al catalogo
 
+
 def addBook(catalog, book):
     # Se adiciona el libro a la lista de libros
     lt.addLast(catalog['books'], book)
@@ -108,6 +109,7 @@ def addBookTag(catalog, booktag):
 
 # Funciones para creacion de datos
 
+
 def newAuthor(name):
     """
     Crea una nueva estructura para modelar los libros de
@@ -139,6 +141,7 @@ def newBookTag(tag_id, book_id):
 
 
 # Funciones de consulta
+
 
 def getBooksByAuthor(catalog, authorname):
     """
@@ -180,6 +183,7 @@ def countBooksByTag(catalog, tag):
 
 
 # Funciones utilizadas para comparar elementos dentro de una lista
+
 
 def compareauthors(authorname1, author):
     if (authorname1.lower() in author['name'].lower()):
